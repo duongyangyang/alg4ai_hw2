@@ -144,7 +144,7 @@ $$
             return classificate(predictions.numpy().flatten()) 
 
 ### 2. 代码运行结果
-![alt text](img\q1.png)
+![alt text](img/q1.png)
 
 ## C. 第三问题：
 > 利用Ridge回归，在训练集A中使用10折交叉检验法，测试并报告采用 不同正则化系数 $\lambda$ 的分类准确率，进而得到最佳超参数并在测试集 B 下测试分类准确率。请根据原理自行编程，若直接使用现有集成工具包，只得 40%的分 数。
@@ -209,7 +209,7 @@ $$
         mean_acrc = np.mean(acrc_part)
         accuracies.append(mean_acrc)
 ### 3. 代码运行结果
-![alt text](img\q2.png)
+![alt text](img/q2.png)
 
 ### 4. 结果分析
 - 正则化参数取较大的值 $(10^{4},10^7)$ 使得准确率达到最高值
@@ -248,7 +248,7 @@ $$
 
 
 ### 2. 代码运行结果
-![alt text](img\q3.png)
+![alt text](img/q3.png)
 
 ### 3. 结果分析
 - 正则化参数取较小的值 $(0,20]$ 使得准确率达到最高值
