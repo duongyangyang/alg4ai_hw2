@@ -142,7 +142,7 @@ $$
             # Make predictions
             predictions = tf.matmul(X_b, self.weights)
             return classificate(predictions.numpy().flatten()) 
-我打算用 tensorflow 提高计算速度，但好像每块多少。:(((
+我打算用 tensorflow 提高计算速度，但好像没快多少。:(((
 ### 2. 代码运行结果
 ![alt text](img/q1.png)
 
